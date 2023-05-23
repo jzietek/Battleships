@@ -1,14 +1,6 @@
-using System;
 namespace Domain;
 
-public class ShipSegment
+public record ShipSegment(Coordinate Coordinate)
 {
-    public ShipSegment(Coordinate coordinate)
-    {
-        Coordinate = coordinate;
-        Status = ShipSegmentStatus.Normal;
-    }
-
-    public ShipSegmentStatus Status { get; set; }
-    public Coordinate Coordinate { get; init; }
+    public ShipSegmentStatus Status { get; set; } = ShipSegmentStatus.Normal;
 }

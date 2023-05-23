@@ -4,18 +4,23 @@ namespace GameServices;
 
 public class FleetBuilder : IFleetBuilder
 {
+    private string _fleetOwnerName = "Admiral";
+    private IList<Ship> _ships = new List<Ship>();
+
     public IFleetBuilder WithOwnerName(string fleetOwnerName)
     {
-        throw new NotImplementedException();
+        _fleetOwnerName = fleetOwnerName;
+        return this;
     }
 
     public IFleetBuilder WithShip(Ship ship)
     {
-        throw new NotImplementedException();
+        _ships.Add(ship);
+        return this;
     }
 
     public Fleet Build()
     {
-        throw new NotImplementedException();
+        return new Fleet { Owner = _fleetOwnerName, Ships = _ships };
     }
 }

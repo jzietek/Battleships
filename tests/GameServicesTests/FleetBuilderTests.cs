@@ -6,13 +6,8 @@ namespace GameServicesTests;
 
 public class FleetBuilderTests
 {
-    [SetUp]
-    public void Setup()
-    {
-    }
-
     [Test]
-    public void Test1()
+    public void Build_BuildsTheFleet()
     {
         //Arrange
         string admiral = "Lord Nelson";
