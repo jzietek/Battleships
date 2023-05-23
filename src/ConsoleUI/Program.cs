@@ -27,7 +27,7 @@ class Program
     {
         return new ServiceCollection()
             .AddTransient<BattleInputLoop>()
-            .AddTransient<IFleetBuilder, RandomFleetBuilder>()
+            .AddTransient<IFleetBuilder, FleetBuilder>()
             .BuildServiceProvider();
     }
 }

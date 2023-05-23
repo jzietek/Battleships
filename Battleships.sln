@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameServices", "src\GameSer
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "src\ConsoleUI\ConsoleUI.csproj", "{1282BBCC-C1E8-446D-845A-98CC138F5A4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameServicesTests", "tests\GameServicesTests\GameServicesTests.csproj", "{EE72A52A-2300-4E89-928C-1BF9BA4A1E59}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,7 @@ Global
 		{D69E847C-CEB7-4309-AA2B-7E227E9DF518} = {9D57ED05-EAB0-408D-98DF-ABE688264FAA}
 		{4B17F0E9-13D8-4930-AC63-505E3AFF1BCA} = {9D57ED05-EAB0-408D-98DF-ABE688264FAA}
 		{1282BBCC-C1E8-446D-845A-98CC138F5A4B} = {9D57ED05-EAB0-408D-98DF-ABE688264FAA}
+		{EE72A52A-2300-4E89-928C-1BF9BA4A1E59} = {02E0CE69-1A3A-4C09-B856-1D40B1480DF0}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D69E847C-CEB7-4309-AA2B-7E227E9DF518}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -33,5 +36,9 @@ Global
 		{1282BBCC-C1E8-446D-845A-98CC138F5A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1282BBCC-C1E8-446D-845A-98CC138F5A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1282BBCC-C1E8-446D-845A-98CC138F5A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE72A52A-2300-4E89-928C-1BF9BA4A1E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE72A52A-2300-4E89-928C-1BF9BA4A1E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE72A52A-2300-4E89-928C-1BF9BA4A1E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE72A52A-2300-4E89-928C-1BF9BA4A1E59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
